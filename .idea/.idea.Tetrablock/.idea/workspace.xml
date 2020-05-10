@@ -26,17 +26,14 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c10642c6-5605-43c2-bf62-fdaf9b4ba280" name="Default Changelist" comment="added basic scripts, scenes, etc.">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Extensions.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/ComponentExt.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/ComponentExt.cs.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/Game.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/Game.cs.meta" afterDir="false" />
+    <list default="true" id="c10642c6-5605-43c2-bf62-fdaf9b4ba280" name="Default Changelist" comment="simple ui">
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/UVScrolling.shader" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Shaders/UVScrolling.shader.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Menu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,16 +59,19 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/TweenAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/PointClickMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/MapBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.0.1/Shaders/2D/Sprite-Lit-Default.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Prefabs/CellObject.prefab" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5C6DD376-D69F-49A1-A1CC-D0729CEF28AC/27/e4d60d67/Grid.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFEF3AFB-9B4C-4739-8F80-16B3D6AE61FD/cc/81e21cd9/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/UVScrolling.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameScore.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Extensions/ComponentExt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Scenes/SceneExecutor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.0.1/Shaders/Unlit.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="mock:///ReadmeEditor.cs" root0="SKIP_HIGHLIGHTING" />
@@ -84,6 +84,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/Game.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/Grid.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -110,6 +111,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Utils.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/ComponentExt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/TweenAnimator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Shaders/UVScrolling.shader" />
       </list>
     </option>
   </component>
@@ -150,7 +152,7 @@
       <option name="presentableId" value="Default" />
       <updated>1589069014147</updated>
       <workItem from="1589069019664" duration="47000" />
-      <workItem from="1589069088221" duration="8705000" />
+      <workItem from="1589069088221" duration="10365000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1589069180536</created>
@@ -180,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589079570760</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="simple ui">
+      <created>1589081645234</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589081645234</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -214,16 +223,17 @@
     <MESSAGE value="added .idea to git ignore" />
     <MESSAGE value="changed editor settings" />
     <MESSAGE value="added basic scripts, scenes, etc." />
-    <option name="LAST_COMMIT_MESSAGE" value="added basic scripts, scenes, etc." />
+    <MESSAGE value="simple ui" />
+    <option name="LAST_COMMIT_MESSAGE" value="simple ui" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="943" y="465" key="Vcs.Push.Dialog.v2" timestamp="1589079573773">
+    <state x="943" y="465" key="Vcs.Push.Dialog.v2" timestamp="1589081646923">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="943" y="465" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1589079573773" />
-    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1589079573471">
+    <state x="943" y="465" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1589081646923" />
+    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1589083805735">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589079573471" />
+    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589083805735" />
   </component>
 </project>
