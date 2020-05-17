@@ -28,11 +28,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c10642c6-5605-43c2-bf62-fdaf9b4ba280" name="Default Changelist" comment="Main Gameplay is working now">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Cell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Cell.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/New Map Config.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/New Map Config.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingCell.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingCell.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/OutlinedSquare.png" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/OutlinedSquare.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/OutlinedSquare.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/OutlinedSquare.png.meta" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +53,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsPolygon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/PointClickMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.0.1/Shaders/2D/Sprite-Lit-Default.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///MovingCell.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD1B6EA4-F54D-4146-A29C-2A12CD6EC436/8e/4f35b1fa/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.0-preview.12/Scripts/Runtime/TMP_DefaultControls.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Extensions/PointMethods.cs" root0="FORCE_HIGHLIGHTING" />
@@ -70,8 +68,8 @@
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/GameContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Service/IService.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Extensions/IPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Scenes/SceneBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///New Map Config.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/e7/5527be5a/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -86,6 +84,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/TweenAnimator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/MapBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Rotary Heart/SerializableDictionaryLite/SerializableDictionaryBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/18/538470f6/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Rotary Heart/SerializableDictionaryLite/Editor/Constants.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CADA0BFC-9D17-4ACC-A8B4-81A257ACAE5C/9d/73a0e76e/LocationService.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/IContext.cs" root0="FORCE_HIGHLIGHTING" />
@@ -102,6 +101,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/IDragging.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Rotary Heart/SerializableDictionaryLite/ReorderableList/ReorderableList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///New Map Config.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/f9/a84e3304/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/67/baf801fb/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD1B6EA4-F54D-4146-A29C-2A12CD6EC436/0f/3380956b/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
@@ -113,7 +113,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/MovingItem.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/DraggingBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PointClickMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameScore.cs" />
@@ -130,7 +129,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Board/IContainCells.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Board/ClosestCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/ClosestCell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/IPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/Vector2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/PointExtension.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Board/Map.cs" />
@@ -157,13 +155,15 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/Types/SceneContextTypeDictionary.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/IDragging.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Map.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsPolygon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/PointMethods.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Scenes/SceneExecutor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/IPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/PointMethods.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/IAvailablePoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsPolygon.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Cell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs" />
       </list>
     </option>
   </component>
@@ -216,7 +216,7 @@
       <workItem from="1589450197342" duration="4693000" />
       <workItem from="1589683375200" duration="13351000" />
       <workItem from="1589711679254" duration="7336000" />
-      <workItem from="1589719545656" duration="548000" />
+      <workItem from="1589719545656" duration="2221000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1589069180536</created>
@@ -274,7 +274,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589719061863</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fixed occupation bugs">
+      <created>1589720134003</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589720134003</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -314,7 +321,8 @@
     <MESSAGE value="background shader" />
     <MESSAGE value="game bg" />
     <MESSAGE value="Main Gameplay is working now" />
-    <option name="LAST_COMMIT_MESSAGE" value="Main Gameplay is working now" />
+    <MESSAGE value="fixed occupation bugs" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed occupation bugs" />
   </component>
   <component name="WindowStateProjectService">
     <state width="470" height="464" key="DebuggerActiveHint" timestamp="1589718792986">
@@ -389,22 +397,26 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="1145" y="421" key="RiderGenerateDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1589450842645" />
+    <state x="1062" y="430" key="RollbackChangesDialog" timestamp="1589721640110">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1062" y="430" key="RollbackChangesDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1589721640110" />
     <state x="812" y="365" key="SettingsEditor" timestamp="1589713608068">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="812" y="365" key="SettingsEditor/62.0.2498.1440@62.0.2498.1440" timestamp="1589713608068" />
-    <state x="943" y="465" key="Vcs.Push.Dialog.v2" timestamp="1589719064329">
+    <state x="943" y="465" key="Vcs.Push.Dialog.v2" timestamp="1589720136300">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="943" y="465" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1589719064329" />
+    <state x="943" y="465" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1589720136300" />
     <state x="978" y="319" width="666" height="801" key="find.popup" timestamp="1589718297812">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="978" y="319" width="666" height="801" key="find.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589718297812" />
-    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1589719063802">
+    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1589720486228">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589719063802" />
+    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589720486228" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

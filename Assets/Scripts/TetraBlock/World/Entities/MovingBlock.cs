@@ -66,6 +66,8 @@ namespace TetraBlock.World.Entities
             {
                 cell.OccupyCurrentCell();
             }
+
+            Destroy(gameObject);
         }
 
         private void Animate()
