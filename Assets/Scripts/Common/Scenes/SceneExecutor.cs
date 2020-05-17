@@ -1,13 +1,12 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Common.Scenes
 {
     public class SceneExecutor : SceneBehaviour
     {
-        [SerializeField] private SceneBehaviour[] sceneBehaviours;
+        [SerializeField] private SceneBehaviour[] sceneBehaviours = default;
 
-        private void Awake()
+        private void Start()
         {
             Execute();
         }
@@ -15,7 +14,7 @@ namespace Common.Scenes
         public override void Execute()
         {
             var length = sceneBehaviours.Length;
-            for (int i = 0; i < length ; i++)
+            for (var i = 0; i < length ; i++)
             {
                 sceneBehaviours[i].Execute();
             }

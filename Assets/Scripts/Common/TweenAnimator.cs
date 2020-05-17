@@ -6,12 +6,12 @@ namespace Common
 {
     public class TweenAnimator : MonoBehaviour
     {
-        [SerializeField] private Transform animatingTransform;
-        [SerializeField] private Ease ease;
-        [SerializeField] private LoopType loopType;
+        [SerializeField] private Transform animatingTransform = default;
+        [SerializeField] private Ease ease = default;
+        [SerializeField] private LoopType loopType = default;
         [SerializeField] private int loopsCount = -1;
-        [SerializeField] private float duration;
-        [SerializeField] private float scale;
+        [SerializeField] private float duration = default;
+        [SerializeField] private float scale = default;
 
         private void Start()
         {

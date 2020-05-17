@@ -3,6 +3,5 @@
     public class GameScore
     {
         public int currentScore;
-
     }
 }

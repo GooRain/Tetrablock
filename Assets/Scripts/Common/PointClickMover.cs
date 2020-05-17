@@ -2,7 +2,7 @@
 
 namespace Common
 {
-    [RequireComponent(typeof(Collider2D))]
+    [RequireComponent(typeof(Collider2D), typeof(IDragging))]
     public class PointClickMover : MonoBehaviour
     {
         private Transform _transform;
@@ -10,21 +10,22 @@ namespace Common
 
         private Camera _camera;
 
-        private bool isDragging;
-
         private Vector3 offset;
         private Vector3 mouseWorldPosition;
+
+        private IDragging draggingItem;
 
         private void Awake()
         {
             _transform = transform;
             _camera = Camera.main;
             _collider2D = GetComponent<Collider2D>();
+            draggingItem = GetComponent<IDragging>();
         }
 
         private void OnMouseDown()
         {
-            isDragging = true;
+            draggingItem.OnPickUp();
 
             mouseWorldPosition = _camera.ScreenToWorldPoint(Input.mousePosition);
 
@@ -35,11 +36,13 @@ namespace Common
         {
             mouseWorldPosition = _camera.ScreenToWorldPoint(Input.mousePosition);
             _transform.position = mouseWorldPosition + offset;
+
+            draggingItem.OnMoving();
         }
 
         private void OnMouseUp()
         {
-            isDragging = false;
+            draggingItem.OnRelease();
         }
     }
 }

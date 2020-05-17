@@ -26,7 +26,117 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c10642c6-5605-43c2-bf62-fdaf9b4ba280" name="Default Changelist" comment="background shader" />
+    <list default="true" id="c10642c6-5605-43c2-bf62-fdaf9b4ba280" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Data/New Game Config.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Data/New Game Config.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Common.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Common/Canvas.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Common/Canvas.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Common/EventSystem.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Common/EventSystem.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Common/Main Camera.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Common/Main Camera.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Map.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Map/CellObject.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Map/CellObject.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MovingBlocks.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MovingBlocks/MovingBlock0.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MovingBlocks/MovingBlock0.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MovingBlocks/MovingBlock023 Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MovingBlocks/MovingBlock023 Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MovingBlocks/MovingBlock03 Variant.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MovingBlocks/MovingBlock03 Variant.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MovingCell.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/MovingCell.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Main.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Main.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/IPoint.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/IPoint.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/PointMethods.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/PointMethods.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/IDragging.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/IDragging.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Service.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Service/IService.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Service/IService.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Service/ServiceBehaviour.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Service/ServiceBehaviour.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Service/ServiceLocator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Service/ServiceLocator.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/UnityExtensions.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/UnityExtensions/SceneField.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/UnityExtensions/SceneField.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/GameConfig.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/GameConfig.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/Types.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/Types/SceneContextTypeDictionary.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/Types/SceneContextTypeDictionary.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/IContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/IContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/GameContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/GameContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/MenuContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/MenuContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContext.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContext.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContextType.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContextType.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Cell.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsPolygon.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsPolygon.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Map.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Map.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/MapBuilder.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingCell.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingCell.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/OutlinedSquare.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/OutlinedSquare.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/New Map Config.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/New Map Config.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleAudio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUtils.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Canvas.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CellObject.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/CellObject.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EventSystem.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/EventSystem.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Main Camera.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MovingBlock.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/MovingBlock.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/PointClickMover.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/PointClickMover.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/Scenes/SceneExecutor.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/Scenes/SceneExecutor.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/TweenAnimator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/TweenAnimator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameScore.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameScore.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/Cell.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/Cell.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Cell.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/Grid.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/Grid.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/MapBuilder.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/MapBuilder.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/MapBuilder.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -41,83 +151,142 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Menu.unity" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///ReadmeEditor.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/Menu.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/Cell.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Menu.unity" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Game.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Cell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/TextMesh Pro/Shaders/TMPro.cginc" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Data/New Map Config.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/TweenAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContextType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsPolygon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/PointClickMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/MapBuilder.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.0.1/Shaders/2D/Sprite-Lit-Default.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///EditorBuildSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Prefabs/CellObject.prefab" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///EditorUserSettings.asset" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5C6DD376-D69F-49A1-A1CC-D0729CEF28AC/27/e4d60d67/Grid.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD1B6EA4-F54D-4146-A29C-2A12CD6EC436/8e/4f35b1fa/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.0-preview.12/Scripts/Runtime/TMP_DefaultControls.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Extensions/PointMethods.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/UnityExtensions/SceneField.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFEF3AFB-9B4C-4739-8F80-16B3D6AE61FD/cc/81e21cd9/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Shaders/UVScrolling.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Service/ServiceBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameScore.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Extensions/ComponentExt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Scenes/SceneExecutor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.0.1/Shaders/Unlit.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Service/ServiceLocator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/GameConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///ReadmeEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/GameContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Service/IService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Extensions/IPoint.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Scenes/SceneBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/e7/5527be5a/Camera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/67/baf801fb/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Readme.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/Game.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/Grid.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingCell.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/Menu.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Menu.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scenes/Game.unity" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/07/81f5aa90/Vector2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/TweenAnimator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/MapBuilder.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Rotary Heart/SerializableDictionaryLite/SerializableDictionaryBase.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CADA0BFC-9D17-4ACC-A8B4-81A257ACAE5C/9d/73a0e76e/LocationService.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/IContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Rotary Heart/SerializableDictionaryLite/Editor/DictionaryPropertyDrawer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5C6DD376-D69F-49A1-A1CC-D0729CEF28AC/27/e4d60d67/Grid.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Map.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/Types/SceneContextTypeDictionary.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/MenuContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Shaders/UVScrolling.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Extensions/ComponentExt.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.0.1/Shaders/Unlit.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/IDragging.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Rotary Heart/SerializableDictionaryLite/ReorderableList/ReorderableList.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/f9/a84e3304/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/67/baf801fb/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD1B6EA4-F54D-4146-A29C-2A12CD6EC436/0f/3380956b/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/c2/f58b00b0/Scene.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/0f/c7ff360a/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/Grid.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Cell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Map/Cell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Map/Grid.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GameScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/Cell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/Grid.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/PointClickMover.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/2D/PointClickMover.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/MovingItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/DraggingBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PointClickMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameScore.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/SceneExecutor.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Scenes/SceneBehaviour.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Scenes/SceneExecutor.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/Grid.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/IContainingItem.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/IHasVector2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/IMapCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/ICell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/CellPolygon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/IPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/ClosestCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/Cell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Map/MapBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Board/IContainCells.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Board/ClosestCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/ClosestCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/IPoint.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/Vector2.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/PointExtension.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Board/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Board/MapBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/MenuContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Main.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/IContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/MenuContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/GameContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContext.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContextType.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContextPair.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContextName.cs" />
+        <option value="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/ServiceLocator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Service/ServiceLocator.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Service/ServiceBehaviour.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/MapBuilder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/Menu.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/Game.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Animation.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Utils.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/ComponentExt.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/TweenAnimator.cs" />
-        <option value="$PROJECT_DIR$/Assets/Shaders/UVScrolling.shader" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/UnityExtensions/SceneField.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/MapBuilder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/GameConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/Types/SceneContextTypeDictionary.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Cell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/IDragging.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsPolygon.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/PointMethods.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingCell.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/Scenes/SceneExecutor.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1bh0S08gZIPj8lChHUPrAjdss1K" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="autoscrollFromSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34983498" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.2999175" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -126,10 +295,10 @@
       <option name="pid" />
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="20760">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="20760" />
       <method v="2" />
     </configuration>
   </component>
@@ -144,7 +313,11 @@
       <option name="presentableId" value="Default" />
       <updated>1589069014147</updated>
       <workItem from="1589069019664" duration="47000" />
-      <workItem from="1589069088221" duration="11122000" />
+      <workItem from="1589069088221" duration="11450000" />
+      <workItem from="1589274752023" duration="1447000" />
+      <workItem from="1589450197342" duration="4693000" />
+      <workItem from="1589683375200" duration="13351000" />
+      <workItem from="1589711679254" duration="7088000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1589069180536</created>
@@ -188,7 +361,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589085262543</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="game bg">
+      <created>1589085565806</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589085565806</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -215,8 +395,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Initial commit" />
     <MESSAGE value="added .idea to git ignore" />
@@ -224,16 +406,116 @@
     <MESSAGE value="added basic scripts, scenes, etc." />
     <MESSAGE value="simple ui" />
     <MESSAGE value="background shader" />
-    <option name="LAST_COMMIT_MESSAGE" value="background shader" />
+    <MESSAGE value="game bg" />
+    <option name="LAST_COMMIT_MESSAGE" value="game bg" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="943" y="465" key="Vcs.Push.Dialog.v2" timestamp="1589085264465">
+    <state width="470" height="464" key="DebuggerActiveHint" timestamp="1589718792986">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="943" y="465" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1589085264465" />
-    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1589085264164">
+    <state width="470" height="464" key="DebuggerActiveHint/62.0.2498.1440@62.0.2498.1440" timestamp="1589718792986" />
+    <state width="2455" height="535" key="GridCell.Tab.0.bottom" timestamp="1589718670247">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589085264164" />
+    <state width="2455" height="535" key="GridCell.Tab.0.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670247" />
+    <state width="2455" height="535" key="GridCell.Tab.0.center" timestamp="1589718670247">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.0.center/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670247" />
+    <state width="2455" height="535" key="GridCell.Tab.0.left" timestamp="1589718670247">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.0.left/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670247" />
+    <state width="2455" height="535" key="GridCell.Tab.0.right" timestamp="1589718670247">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.0.right/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670247" />
+    <state width="2455" height="535" key="GridCell.Tab.1.bottom" timestamp="1589718686458">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.1.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1589718686458" />
+    <state width="2455" height="535" key="GridCell.Tab.1.center" timestamp="1589718686458">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.1.center/62.0.2498.1440@62.0.2498.1440" timestamp="1589718686458" />
+    <state width="2455" height="535" key="GridCell.Tab.1.left" timestamp="1589718686458">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.1.left/62.0.2498.1440@62.0.2498.1440" timestamp="1589718686458" />
+    <state width="2455" height="535" key="GridCell.Tab.1.right" timestamp="1589718686458">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.1.right/62.0.2498.1440@62.0.2498.1440" timestamp="1589718686458" />
+    <state width="2455" height="535" key="GridCell.Tab.2.bottom" timestamp="1589718670173">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.2.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670173" />
+    <state width="2455" height="535" key="GridCell.Tab.2.center" timestamp="1589718670172">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.2.center/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670172" />
+    <state width="2455" height="535" key="GridCell.Tab.2.left" timestamp="1589718670172">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.2.left/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670172" />
+    <state width="2455" height="535" key="GridCell.Tab.2.right" timestamp="1589718670173">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.2.right/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670173" />
+    <state width="2455" height="535" key="GridCell.Tab.3.bottom" timestamp="1589718670173">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.3.bottom/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670173" />
+    <state width="2455" height="535" key="GridCell.Tab.3.center" timestamp="1589718670173">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.3.center/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670173" />
+    <state width="2455" height="535" key="GridCell.Tab.3.left" timestamp="1589718670173">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.3.left/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670173" />
+    <state width="2455" height="535" key="GridCell.Tab.3.right" timestamp="1589718670173">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state width="2455" height="535" key="GridCell.Tab.3.right/62.0.2498.1440@62.0.2498.1440" timestamp="1589718670173" />
+    <state x="1145" y="421" key="RiderGenerateDialog" timestamp="1589450842645">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1145" y="421" key="RiderGenerateDialog/62.0.2498.1440@62.0.2498.1440" timestamp="1589450842645" />
+    <state x="812" y="365" key="SettingsEditor" timestamp="1589713608068">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="812" y="365" key="SettingsEditor/62.0.2498.1440@62.0.2498.1440" timestamp="1589713608068" />
+    <state x="943" y="465" key="Vcs.Push.Dialog.v2" timestamp="1589085568602">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="943" y="465" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1589085568602" />
+    <state x="978" y="319" width="666" height="801" key="find.popup" timestamp="1589718297812">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="978" y="319" width="666" height="801" key="find.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589718297812" />
+    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1589718427209">
+      <screen x="62" y="0" width="2498" height="1440" />
+    </state>
+    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589718427209" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs</url>
+          <line>41</line>
+          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" initialLine="41">
+            <startOffsets>
+              <option value="1145" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1173" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

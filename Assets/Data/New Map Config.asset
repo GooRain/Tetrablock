@@ -14,4 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   size: {x: 9, y: 9}
   offset: {x: -4, y: -4, z: 0}
-  cellPrefab: {fileID: 2002677194774313114, guid: 4d4e0a801efa2524a835923e3b117e8f, type: 3}
+  cellPrefab: {fileID: 8833677725031135171, guid: 4d4e0a801efa2524a835923e3b117e8f, type: 3}
+  polygonSize: 9
+  cellDefaultColor: {r: 0.7490196, g: 0.81960785, b: 0.81960785, a: 1}
+  cellHighlightedColor: {r: 0.6155255, g: 0.81960785, b: 0.6373626, a: 1}
+  cellOccupiedColor: {r: 1, g: 0.31199998, b: 0.32952875, a: 1}
+  maxDistanceToCell: 1
