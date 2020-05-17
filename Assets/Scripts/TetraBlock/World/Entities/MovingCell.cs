@@ -1,5 +1,4 @@
-﻿using System;
-using Common.Service;
+﻿using Common.Service;
 using TetraBlock.Global;
 using TetraBlock.Global.Scene;
 using TetraBlock.World.Board;
@@ -36,8 +35,7 @@ namespace TetraBlock.World.Entities
             {
                 UnhighlightCurrentCell();
 
-
-                if (!cell.IsOccupied)
+                if (cell.CanBeOccupied())
                 {
                     _currentCell = cell;
                     _currentCell.Highlight();
@@ -49,13 +47,15 @@ namespace TetraBlock.World.Entities
             }
         }
 
-        public void OnRelease()
+        public bool CanBePlaced()
         {
-            if (enabled && _currentCell)
-            {
-                _currentCell.Occupy();
-                Destroy(gameObject);
-            }
+            return enabled && _currentCell;
+        }
+
+        public void OccupyCurrentCell()
+        {
+            _currentCell.Occupy();
+            Destroy(gameObject);
         }
 
         private void UnhighlightCurrentCell()
@@ -65,6 +65,11 @@ namespace TetraBlock.World.Entities
                 _currentCell.Unhighlight();
                 _currentCell = null;
             }
+        }
+
+        public void OnRelease()
+        {
+            UnhighlightCurrentCell();
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using Common;
+﻿using System.Linq;
+using Common;
 using Common.Service;
 using DG.Tweening;
 using TetraBlock.Global;
@@ -41,9 +42,29 @@ namespace TetraBlock.World.Entities
         {
             EndAnimate();
 
+            if (cells.Any(cell => !cell.CanBePlaced()))
+            {
+                ReleaseAllCells();
+            }
+            else
+            {
+                OccupyAllCells();
+            }
+        }
+
+        private void ReleaseAllCells()
+        {
             foreach (var cell in cells)
             {
                 cell.OnRelease();
+            }
+        }
+
+        private void OccupyAllCells()
+        {
+            foreach (var cell in cells)
+            {
+                cell.OccupyCurrentCell();
             }
         }
 

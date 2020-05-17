@@ -11,11 +11,11 @@ namespace TetraBlock.World.Board
 
         private bool _isOccupied;
 
+        private bool _isHighlighted;
+
         private Transform _transform;
 
         private MapConfig _mapConfig;
-
-        public bool IsOccupied => _isOccupied;
 
         public Transform Transform => _transform;
 
@@ -33,11 +33,20 @@ namespace TetraBlock.World.Board
         public void Unhighlight()
         {
             spriteRenderer.color = _mapConfig.CellDefaultColor;
+
+            _isHighlighted = false;
         }
 
         public void Highlight()
         {
             spriteRenderer.color = _mapConfig.CellHighlightedColor;
+
+            _isHighlighted = true;
+        }
+
+        public bool CanBeOccupied()
+        {
+            return !_isOccupied && !_isHighlighted;
         }
 
         public void Occupy()
