@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using Common;
 using Common.Service;
 using DG.Tweening;
@@ -11,10 +12,14 @@ namespace TetraBlock.World.Entities
     {
         public MovingCell[] cells;
 
+        public Action<MovingBlock> onPlace;
+
         private float animatedScale;
         private float duration;
 
         private float defaultScale;
+
+        private Vector3 startPosition;
 
         private void Awake()
         {
@@ -23,6 +28,16 @@ namespace TetraBlock.World.Entities
             duration = gameConfig.AnimationDuration;
 
             defaultScale = transform.localScale.x;
+        }
+
+        public void SetStartPosition(Vector3 newStartPosition)
+        {
+            startPosition = newStartPosition;
+        }
+
+        private void ReturnToStartPosition()
+        {
+            transform.position = startPosition;
         }
 
         public void OnPickUp()
@@ -45,10 +60,14 @@ namespace TetraBlock.World.Entities
             if (cells.Any(cell => !cell.CanBePlaced()))
             {
                 ReleaseAllCells();
+
+                ReturnToStartPosition();
             }
             else
             {
                 OccupyAllCells();
+
+                onPlace?.Invoke(this);
             }
         }
 
