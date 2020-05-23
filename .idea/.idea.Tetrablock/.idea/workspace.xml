@@ -26,10 +26,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c10642c6-5605-43c2-bf62-fdaf9b4ba280" name="Default Changelist" comment="Main Gameplay is working now">
+    <list default="true" id="c10642c6-5605-43c2-bf62-fdaf9b4ba280" name="Default Changelist" comment="destroying moving blocks">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Data/New Map Config.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Data/New Map Config.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/QualitySettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,10 +54,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContextType.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsPolygon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/PointClickMover.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.0.1/Shaders/2D/Sprite-Lit-Default.shader" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///MovingCell.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD1B6EA4-F54D-4146-A29C-2A12CD6EC436/8e/4f35b1fa/Object.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.textmeshpro@3.0.0-preview.12/Scripts/Runtime/TMP_DefaultControls.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Extensions/PointMethods.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/UnityExtensions/SceneField.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BFEF3AFB-9B4C-4739-8F80-16B3D6AE61FD/cc/81e21cd9/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
@@ -69,7 +68,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/GameContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Service/IService.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Scenes/SceneBehaviour.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///New Map Config.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/e7/5527be5a/Camera.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" root0="FORCE_HIGHLIGHTING" />
@@ -97,11 +95,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/MenuContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/UVScrolling.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Extensions/ComponentExt.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.universal@8.0.1/Shaders/Unlit.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/IDragging.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Rotary Heart/SerializableDictionaryLite/ReorderableList/ReorderableList.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///New Map Config.asset" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/f9/a84e3304/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/67/baf801fb/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD1B6EA4-F54D-4146-A29C-2A12CD6EC436/0f/3380956b/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
@@ -216,7 +212,9 @@
       <workItem from="1589450197342" duration="4693000" />
       <workItem from="1589683375200" duration="13351000" />
       <workItem from="1589711679254" duration="7336000" />
-      <workItem from="1589719545656" duration="2221000" />
+      <workItem from="1589719545656" duration="2297000" />
+      <workItem from="1590220210126" duration="47000" />
+      <workItem from="1590223869737" duration="588000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1589069180536</created>
@@ -281,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1589720134003</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="destroying moving blocks">
+      <created>1589721823312</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589721823312</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
@@ -322,7 +327,8 @@
     <MESSAGE value="game bg" />
     <MESSAGE value="Main Gameplay is working now" />
     <MESSAGE value="fixed occupation bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed occupation bugs" />
+    <MESSAGE value="destroying moving blocks" />
+    <option name="LAST_COMMIT_MESSAGE" value="destroying moving blocks" />
   </component>
   <component name="WindowStateProjectService">
     <state width="470" height="464" key="DebuggerActiveHint" timestamp="1589718792986">
@@ -405,36 +411,17 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="812" y="365" key="SettingsEditor/62.0.2498.1440@62.0.2498.1440" timestamp="1589713608068" />
-    <state x="943" y="465" key="Vcs.Push.Dialog.v2" timestamp="1589720136300">
+    <state x="943" y="465" key="Vcs.Push.Dialog.v2" timestamp="1589721826769">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="943" y="465" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1589720136300" />
+    <state x="943" y="465" key="Vcs.Push.Dialog.v2/62.0.2498.1440@62.0.2498.1440" timestamp="1589721826769" />
     <state x="978" y="319" width="666" height="801" key="find.popup" timestamp="1589718297812">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="978" y="319" width="666" height="801" key="find.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589718297812" />
-    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1589720486228">
+    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1589721826172">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589720486228" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs</url>
-          <line>41</line>
-          <properties documentPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" initialLine="41">
-            <startOffsets>
-              <option value="1145" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1173" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589721826172" />
   </component>
 </project>
