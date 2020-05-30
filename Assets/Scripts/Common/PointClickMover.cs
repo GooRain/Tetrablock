@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using Common.Service;
+using TetraBlock.Global;
+using UnityEngine;
 
 namespace Common
 {
@@ -15,12 +17,16 @@ namespace Common
 
         private IDragging draggingItem;
 
+        private Vector3 movingBlockTouchOffset;
+
         private void Awake()
         {
             _transform = transform;
             _camera = Camera.main;
             _collider2D = GetComponent<Collider2D>();
             draggingItem = GetComponent<IDragging>();
+
+            movingBlockTouchOffset = ServiceLocator.Current.Get<Main>().GameConfig.MovingBlockTouchOffset;
         }
 
         private void OnMouseDown()
@@ -29,7 +35,7 @@ namespace Common
 
             mouseWorldPosition = _camera.ScreenToWorldPoint(Input.mousePosition);
 
-            offset = _transform.position - mouseWorldPosition;
+            offset = _transform.position - mouseWorldPosition + movingBlockTouchOffset;
         }
 
         private void OnMouseDrag()

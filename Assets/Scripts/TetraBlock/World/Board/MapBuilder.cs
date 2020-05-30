@@ -44,6 +44,8 @@ namespace TetraBlock.World.Board
 
             for (var x = 0; x < size.x; x++)
             {
+                var verticalCells = new List<Cell>();
+
                 for (var y = 0; y < size.y; y++)
                 {
                     var position = center + new Vector3(x, y);
@@ -52,12 +54,16 @@ namespace TetraBlock.World.Board
 
                     cell.Initialize(mapConfig, position);
 
+                    _map[x, y] = cell;
+
+                    verticalCells.Add(cell);
+
                     polygonCells.Add(cell);
                     polygonCellCounter++;
 
                     if (polygonCellCounter >= polygonSize)
                     {
-                        _map.Add(new CellsPolygon(polygonCells));
+                        _map.AddPolygon(new CellsPolygon(polygonCells));
                         polygonCells = new HashSet<Cell>();
                         polygon = new GameObject($"Polygon [{polygonCounter++}]").transform;
                         polygon.SetParent(transform);
@@ -65,6 +71,24 @@ namespace TetraBlock.World.Board
                         polygonCellCounter = 0;
                     }
                 }
+
+                var verticalCheckZone = new CellsCheckZone(verticalCells);
+
+                _map.AddCellZone(verticalCheckZone);
+            }
+
+            for (int y = 0; y < size.x; y++)
+            {
+                var horizontalCells = new List<Cell>();
+
+                for (int x = 0; x < size.y; x++)
+                {
+                    horizontalCells.Add(_map[x, y]);
+                }
+
+                var horizontalCheckZone = new CellsCheckZone(horizontalCells);
+
+                _map.AddCellZone(horizontalCheckZone);
             }
         }
     }

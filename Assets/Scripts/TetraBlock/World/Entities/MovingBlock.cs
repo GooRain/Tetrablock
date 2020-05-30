@@ -91,12 +91,18 @@ namespace TetraBlock.World.Entities
 
         private void Animate()
         {
-            transform.DOScale(animatedScale, duration);
+            for (int i = 0; i < cells.Length; i++)
+            {
+                cells[i].Animate(animatedScale, duration);
+            }
         }
 
         private void EndAnimate()
         {
-            transform.DOScale(defaultScale, duration);
+            for (int i = 0; i < cells.Length; i++)
+            {
+                cells[i].Animate(defaultScale, duration);
+            }
         }
     }
 }

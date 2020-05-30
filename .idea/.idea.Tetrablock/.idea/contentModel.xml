@@ -101,6 +101,7 @@
               <e p="BlockSpawner.cs" t="Include" />
               <e p="Board" t="Include">
                 <e p="Cell.cs" t="Include" />
+                <e p="CellsCheckZone.cs" t="Include" />
                 <e p="CellsPolygon.cs" t="Include" />
                 <e p="Map.cs" t="Include" />
                 <e p="MapBuilder.cs" t="Include" />

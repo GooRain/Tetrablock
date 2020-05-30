@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using Common.Extensions;
 using Vector2 = UnityEngine.Vector2;
 
@@ -14,11 +15,7 @@ namespace TetraBlock.World.Board
         {
             Cells = cells;
 
-            Position = PointMethods.GetCentroid(cells);
-
-            // Debug.Log($"Polygon[{counter++}] Position: {Position}");
+            Position = PointMethods.GetCentroid(Cells);
         }
-
-        private static int counter;
     }
 }

@@ -1,4 +1,5 @@
 ﻿using Common.Service;
+using DG.Tweening;
 using TetraBlock.Global;
 using TetraBlock.Global.Scene;
 using TetraBlock.World.Board;
@@ -70,6 +71,11 @@ namespace TetraBlock.World.Entities
         public void OnRelease()
         {
             UnhighlightCurrentCell();
+        }
+
+        public void Animate(float animatedScale,float duration)
+        {
+            _transform.DOScale(animatedScale, duration);
         }
     }
 }

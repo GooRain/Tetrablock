@@ -1,4 +1,5 @@
-﻿using Common.Extensions;
+﻿using System;
+using Common.Extensions;
 using TetraBlock.Data;
 using UnityEngine;
 using Vector2 = UnityEngine.Vector2;
@@ -17,9 +18,13 @@ namespace TetraBlock.World.Board
 
         private MapConfig _mapConfig;
 
+        public Action onOccupy;
+
         public Transform Transform => _transform;
 
         public Vector2 Position { get; private set; }
+
+        public bool IsOccupied => _isOccupied;
 
         public void Initialize(MapConfig mapConfig, Vector3 position)
         {
@@ -53,6 +58,16 @@ namespace TetraBlock.World.Board
         {
             spriteRenderer.color = _mapConfig.CellOccupiedColor;
             _isOccupied = true;
+            _isHighlighted = false;
+
+            onOccupy?.Invoke();
+        }
+
+        public void Clear()
+        {
+            spriteRenderer.color = _mapConfig.CellDefaultColor;
+            _isOccupied = false;
+            _isHighlighted = false;
         }
     }
 }
