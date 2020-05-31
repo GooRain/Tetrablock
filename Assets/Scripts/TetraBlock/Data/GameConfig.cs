@@ -12,6 +12,7 @@ namespace TetraBlock.Data
 
         [SerializeField] private Color mainColor = default;
 
+        [SerializeField] private float defaultScale = .5f;
         [SerializeField] private float animatedScale = .75f;
         [SerializeField] private float animationDuration = .25f;
         [SerializeField] private Vector2 movingBlockTouchOffset = Vector2.zero;
@@ -27,6 +28,8 @@ namespace TetraBlock.Data
         public MapConfig MapConfig => mapConfig;
 
         public SceneContextTypeDictionary Scenes => scenes;
+
+        public float DefaultScale => defaultScale;
 
         public float AnimatedScale => animatedScale;
 

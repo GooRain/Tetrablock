@@ -2,7 +2,6 @@
 using System.Linq;
 using Common;
 using Common.Service;
-using DG.Tweening;
 using TetraBlock.Global;
 using UnityEngine;
 
@@ -14,20 +13,23 @@ namespace TetraBlock.World.Entities
 
         public Action<MovingBlock> onPlace;
 
+        private float defaultScale;
         private float animatedScale;
         private float duration;
-
-        private float defaultScale;
 
         private Vector3 startPosition;
 
         private void Awake()
         {
             var gameConfig = ServiceLocator.Current.Get<Main>().GameConfig;
+            defaultScale = gameConfig.DefaultScale;
             animatedScale = gameConfig.AnimatedScale;
             duration = gameConfig.AnimationDuration;
+        }
 
-            defaultScale = transform.localScale.x;
+        private void Start()
+        {
+            EndAnimate();
         }
 
         public void SetStartPosition(Vector3 newStartPosition)

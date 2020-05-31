@@ -14,8 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   mapConfig: {fileID: 11400000, guid: 5e1ab9d46541bc44299033a74fddc915, type: 2}
   mainColor: {r: 1, g: 0.38431376, b: 0.40000004, a: 1}
-  animatedScale: 0.8
-  animationDuration: 0.25
+  defaultScale: 0.95
+  animatedScale: 0.75
+  animationDuration: 0.2
+  movingBlockTouchOffset: {x: 0, y: 3}
   scenes:
     reorderableList:
       canAdd: 1
@@ -46,3 +48,16 @@ MonoBehaviour:
       sceneName: Game
     - sceneAsset: {fileID: 102900000, guid: 17ad3dd9158cda74a9d5085bd9ba86ff, type: 3}
       sceneName: Menu
+  movingBlockPrefabs:
+  - {fileID: 4115131553964353394, guid: c9af37c3d216f704f930e1304c50b511, type: 3}
+  - {fileID: 6035204644701554806, guid: c94d255802afb6e4f828f4b9cfba5dbe, type: 3}
+  - {fileID: 7275380228891616870, guid: c95a5aedc95a70d438c47a7e898915cb, type: 3}
+  - {fileID: 4272061836175506330, guid: aa50a901b9a869d4d935da31edfff40d, type: 3}
+  - {fileID: 5782673491763510713, guid: 57f022b476775d24496ef54860c1fb47, type: 3}
+  - {fileID: 3162312795663578690, guid: 9dfbcd4090d9dbd4586d9c67bb859bf7, type: 3}
+  - {fileID: 2903905991346323336, guid: 222d609a89949db4d8dbf4e02c6bad06, type: 3}
+  - {fileID: 7275380228891616870, guid: c3da56d933feb114aafce049ecbcf800, type: 3}
+  - {fileID: 7275380228891616870, guid: 37896fcf9bb59f148801ac79b2729585, type: 3}
+  - {fileID: 2338420021476762776, guid: 47f59c1c729600b4db9efde1e824d3d7, type: 3}
+  - {fileID: 4621001340546240678, guid: 0c49ceee723f6024eb72e410b33ea535, type: 3}
+  - {fileID: 2903905991346323336, guid: c81f818d51d20234b8cf06446351d62b, type: 3}
