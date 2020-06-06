@@ -45,6 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 5789841526118547130}
+  onClearGameEvent: {fileID: 11400000, guid: 8902193b0cfd1af4197f79d49b3d3543, type: 2}
 --- !u!1 &3942249317721494631
 GameObject:
   m_ObjectHideFlags: 0

@@ -84,6 +84,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 87a343189a3548db88d856f6cc93f435, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  onPickupGameEvent: {fileID: 11400000, guid: ef1a99db76a6ef64c91a56315516d685, type: 2}
+  onPlaceGameEvent: {fileID: 11400000, guid: 206d1b25c57d9ab4784307a928542108, type: 2}
   cells:
   - {fileID: 4289978718622637407}
 --- !u!1001 &7912320955471589406

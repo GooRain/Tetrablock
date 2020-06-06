@@ -23,6 +23,23 @@ namespace TetraBlock.World.Board
             }
         }
 
+        public CellsCheckZone(List<CellsPolygon> polygons)
+        {
+            _cells = new List<Cell>();
+
+            foreach (var polygon in polygons)
+            {
+                _cells.AddRange(polygon.Cells);
+            }
+
+            _cellsCount = _cells.Count;
+
+            foreach (var cell in Cells)
+            {
+                cell.onOccupy = Check;
+            }
+        }
+
         public bool IsOccupied()
         {
             for (var i = 0; i < _cellsCount; i++)

@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 987c88686d6f431cb381dfee9c5073f5, type: 3}
-  m_Name: New Map Config
+  m_Name: MapConfig
   m_EditorClassIdentifier: 
   size: {x: 9, y: 9}
   offset: {x: -4, y: -4, z: 0}
@@ -21,3 +21,5 @@ MonoBehaviour:
   cellHighlightedColor: {r: 0.6155255, g: 0.81960785, b: 0.6373626, a: 1}
   cellOccupiedColor: {r: 1, g: 0.31199998, b: 0.32952875, a: 1}
   maxDistanceToCell: 1.1
+  onClearCellsGameEvent: {fileID: 11400000, guid: 8902193b0cfd1af4197f79d49b3d3543,
+    type: 2}

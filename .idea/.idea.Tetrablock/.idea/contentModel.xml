@@ -58,8 +58,19 @@
               <e p="IPoint.cs" t="Include" />
               <e p="PointMethods.cs" t="Include" />
             </e>
+            <e p="GameEvents" t="Include">
+              <e p="GameEvent.cs" t="Include" />
+              <e p="GameEventListener.cs" t="Include" />
+              <e p="IEventListener.cs" t="Include" />
+            </e>
             <e p="IDragging.cs" t="Include" />
             <e p="PointClickMover.cs" t="Include" />
+            <e p="Pool" t="Include">
+              <e p="IPool.cs" t="Include" />
+              <e p="IPoolable.cs" t="Include" />
+              <e p="ObjectPool.cs" t="Include" />
+              <e p="PoolableObject.cs" t="Include" />
+            </e>
             <e p="Scenes" t="Include">
               <e p="SceneBehaviour.cs" t="Include" />
               <e p="SceneExecutor.cs" t="Include" />
@@ -109,6 +120,8 @@
               <e p="Entities" t="Include">
                 <e p="MovingBlock.cs" t="Include" />
                 <e p="MovingCell.cs" t="Include" />
+                <e p="ParticlePool.cs" t="Include" />
+                <e p="PoolableParticle.cs" t="Include" />
               </e>
               <e p="GameFlow.cs" t="Include" />
             </e>

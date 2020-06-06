@@ -90,6 +90,22 @@ namespace TetraBlock.World.Board
 
                 _map.AddCellZone(horizontalCheckZone);
             }
+
+            var polygons = new List<CellsPolygon>();
+
+            for (int i = 0; i < 3; i++)
+            {
+                for (int j = 0; j < 3; j++)
+                {
+                    for (int k = 0; k < 3; k++)
+                    {
+                        polygons.Add(_map.GetPolygon(i * 9 + j + k * 3));
+                    }
+
+                    _map.AddCellZone(new CellsCheckZone(polygons));
+                    polygons.Clear();
+                }
+            }
         }
     }
 }

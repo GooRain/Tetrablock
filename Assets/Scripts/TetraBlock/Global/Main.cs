@@ -4,6 +4,7 @@ using Common.Service;
 using DG.Tweening;
 using TetraBlock.Data;
 using TetraBlock.Global.Scene;
+using TetraBlock.World.Entities;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -12,12 +13,15 @@ namespace TetraBlock.Global
     public partial class Main : MonoBehaviour, IService
     {
         [SerializeField] private GameConfig gameConfig = default;
+        [SerializeField] private ParticlePool particlePool = default;
 
         private IContext _currentContext;
 
         private Dictionary<string, SceneContextType> scenes;
 
         public GameConfig GameConfig => gameConfig;
+
+        public ParticlePool ParticlePool => particlePool;
 
         private void Initialize()
         {

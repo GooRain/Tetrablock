@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Linq;
 using Common;
+using Common.GameEvents;
 using Common.Service;
 using TetraBlock.Global;
 using UnityEngine;
@@ -9,6 +10,9 @@ namespace TetraBlock.World.Entities
 {
     public class MovingBlock : MonoBehaviour, IDragging
     {
+        [SerializeField] private GameEvent onPickupGameEvent;
+        [SerializeField] private GameEvent onPlaceGameEvent;
+
         public MovingCell[] cells;
 
         public Action<MovingBlock> onPlace;
@@ -45,6 +49,7 @@ namespace TetraBlock.World.Entities
         public void OnPickUp()
         {
             Animate();
+            onPickupGameEvent.Raise();
         }
 
         public void OnMoving()
@@ -87,6 +92,8 @@ namespace TetraBlock.World.Entities
             {
                 cell.OccupyCurrentCell();
             }
+
+            onPlaceGameEvent.Raise();
 
             Destroy(gameObject);
         }

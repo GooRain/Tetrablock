@@ -1,4 +1,5 @@
-﻿using TetraBlock.World.Board;
+﻿using Common.GameEvents;
+using TetraBlock.World.Board;
 using UnityEngine;
 
 namespace TetraBlock.Data
@@ -11,13 +12,20 @@ namespace TetraBlock.Data
         [SerializeField] private Cell cellPrefab = default;
         [SerializeField] private int polygonSize = 9;
 
-        [Space(10)] [SerializeField] private Color cellDefaultColor = default;
+        [Space(10)]
+
+        [SerializeField] private Color cellDefaultColor = default;
         [SerializeField] private Color cellHighlightedColor = default;
         [SerializeField] private Color cellOccupiedColor = default;
 
 
-        [Space(10)] [Header("Algorithm Parameters")] [SerializeField]
-        private float maxDistanceToCell = default;
+        [Space(10)] [Header("Algorithm Parameters")]
+
+        [SerializeField] private float maxDistanceToCell = default;
+
+        [Space(10)] [Header("Game Events")]
+
+        [SerializeField] private GameEvent onClearCellsGameEvent;
 
         public Vector2Int Size => size;
 
@@ -34,5 +42,7 @@ namespace TetraBlock.Data
         public Color CellOccupiedColor => cellOccupiedColor;
 
         public float MaxDistanceToCell => maxDistanceToCell;
+
+        public GameEvent OnClearCellsGameEvent => onClearCellsGameEvent;
     }
 }

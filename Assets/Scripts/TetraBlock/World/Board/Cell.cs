@@ -1,6 +1,10 @@
 ﻿using System;
+using System.Collections;
 using Common.Extensions;
+using Common.Service;
 using TetraBlock.Data;
+using TetraBlock.Global;
+using TetraBlock.World.Entities;
 using UnityEngine;
 using Vector2 = UnityEngine.Vector2;
 
@@ -26,6 +30,8 @@ namespace TetraBlock.World.Board
 
         public bool IsOccupied => _isOccupied;
 
+        private ParticlePool particlePool;
+
         public void Initialize(MapConfig mapConfig, Vector3 position)
         {
             _mapConfig = mapConfig;
@@ -33,6 +39,8 @@ namespace TetraBlock.World.Board
             _transform = transform;
 
             Position = position;
+
+            particlePool = ServiceLocator.Current.Get<Main>().ParticlePool;
         }
 
         public void Unhighlight()
@@ -68,6 +76,20 @@ namespace TetraBlock.World.Board
             spriteRenderer.color = _mapConfig.CellDefaultColor;
             _isOccupied = false;
             _isHighlighted = false;
+
+            var particle = particlePool.Pull();
+            particle.PlayOn(Position);
+
+            if (!particle.Loop)
+            {
+                StartCoroutine(ReturnParticle(particle, particle.Duration));
+            }
+        }
+
+        private IEnumerator ReturnParticle(PoolableParticle particle, float delay)
+        {
+            yield return new WaitForSeconds(delay);
+            particlePool.Push(particle);
         }
     }
 }

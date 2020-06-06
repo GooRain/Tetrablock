@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07677f32e2d44232addc54fa8329f4c9, type: 3}
-  m_Name: New Game Config
+  m_Name: GameConfig
   m_EditorClassIdentifier: 
   mapConfig: {fileID: 11400000, guid: 5e1ab9d46541bc44299033a74fddc915, type: 2}
   mainColor: {r: 1, g: 0.38431376, b: 0.40000004, a: 1}

@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using Common.Extensions;
+using Common.GameEvents;
 using TetraBlock.Data;
 using UnityEngine;
 
@@ -8,11 +9,13 @@ namespace TetraBlock.World.Board
     public class Map
     {
         private readonly MapConfig _mapConfig;
-        private readonly HashSet<CellsPolygon> _cellPolygons;
 
+        private readonly List<CellsPolygon> _cellPolygons;
         private readonly List<CellsCheckZone> _checkZones;
 
-        private Cell[,] _cellsGrid;
+        private readonly Cell[,] _cellsGrid;
+
+        private readonly GameEvent _onClearCellsGameEvent;
 
         public Cell this[int x, int y]
         {
@@ -24,11 +27,12 @@ namespace TetraBlock.World.Board
         {
             _mapConfig = mapConfig;
 
-            _cellPolygons = new HashSet<CellsPolygon>();
-
+            _cellPolygons = new List<CellsPolygon>();
             _checkZones = new List<CellsCheckZone>();
 
             _cellsGrid = new Cell[mapConfig.Size.x, mapConfig.Size.y];
+
+            _onClearCellsGameEvent = _mapConfig.OnClearCellsGameEvent;
         }
 
         public void AddPolygon(CellsPolygon cellPolygon)
@@ -72,6 +76,16 @@ namespace TetraBlock.World.Board
             {
                 cell.Clear();
             }
+
+            if (cells.Count > 0 && _onClearCellsGameEvent)
+            {
+                _onClearCellsGameEvent.Raise();
+            }
+        }
+
+        public CellsPolygon GetPolygon(int index)
+        {
+            return _cellPolygons[index];
         }
     }
 }
