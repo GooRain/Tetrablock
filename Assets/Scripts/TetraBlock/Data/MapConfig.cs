@@ -1,4 +1,5 @@
 ﻿using Common.GameEvents;
+using TetraBlock.GameEvents;
 using TetraBlock.World.Board;
 using UnityEngine;
 
@@ -25,7 +26,7 @@ namespace TetraBlock.Data
 
         [Space(10)] [Header("Game Events")]
 
-        [SerializeField] private GameEvent onClearCellsGameEvent;
+        [SerializeField] private CellsGameEvent onClearCellsGameEvent;
 
         public Vector2Int Size => size;
 
@@ -43,6 +44,6 @@ namespace TetraBlock.Data
 
         public float MaxDistanceToCell => maxDistanceToCell;
 
-        public GameEvent OnClearCellsGameEvent => onClearCellsGameEvent;
+        public CellsGameEvent OnClearCellsGameEvent => onClearCellsGameEvent;
     }
 }

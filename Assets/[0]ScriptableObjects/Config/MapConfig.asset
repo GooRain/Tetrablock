@@ -21,5 +21,5 @@ MonoBehaviour:
   cellHighlightedColor: {r: 0.6155255, g: 0.81960785, b: 0.6373626, a: 1}
   cellOccupiedColor: {r: 1, g: 0.31199998, b: 0.32952875, a: 1}
   maxDistanceToCell: 1.1
-  onClearCellsGameEvent: {fileID: 11400000, guid: 8902193b0cfd1af4197f79d49b3d3543,
+  onClearCellsGameEvent: {fileID: 11400000, guid: ace915a679688324c93b92b3390cd1da,
     type: 2}

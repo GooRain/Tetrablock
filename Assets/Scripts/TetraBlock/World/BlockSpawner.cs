@@ -23,7 +23,7 @@ namespace TetraBlock.World
             _movingBlockPrefabs = new List<MovingBlock>(gameConfig.MovingBlockPrefabs);
         }
 
-        public List<MovingBlock> Spawn()
+        public IEnumerable<MovingBlock> Spawn()
         {
             _spawnedBlocks.Clear();
 

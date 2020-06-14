@@ -89,7 +89,6 @@ namespace TetraBlock.Global
         public static void Run()
         {
             ServiceLocator.Initialize();
-            DOTween.Init();
 
             var mainPrefab = Resources.Load<Main>("Prefabs/Main");
             var mainGameObject = Instantiate(mainPrefab);

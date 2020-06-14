@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2652279098012758363}
-  - component: {fileID: 6654836062156706078}
   - component: {fileID: 5331295818163032854}
   - component: {fileID: 2670703872299483454}
+  - component: {fileID: 1832106621408060029}
   m_Layer: 0
   m_Name: GameEventsListener
   m_TagString: Untagged
@@ -36,33 +36,6 @@ Transform:
   m_Father: {fileID: 6619919653702416662}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6654836062156706078
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1909068696889079225}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 59eb6d48b7664fb98157edc6a836d91e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  gameEvent: {fileID: 11400000, guid: 8902193b0cfd1af4197f79d49b3d3543, type: 2}
-  responce:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1929169893330492701}
-        m_MethodName: Play
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &5331295818163032854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -107,6 +80,33 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7250542583733278347}
+        m_MethodName: Play
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &1832106621408060029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909068696889079225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8dcfe607e8e34be1b2729b057aa717a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameEvent: {fileID: 11400000, guid: ace915a679688324c93b92b3390cd1da, type: 2}
+  responce:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1929169893330492701}
         m_MethodName: Play
         m_Mode: 1
         m_Arguments:

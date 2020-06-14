@@ -4,4 +4,9 @@
     {
         void OnRaise();
     }
+
+    public interface IEventListener<T>
+    {
+        void OnRaise(T value);
+    }
 }

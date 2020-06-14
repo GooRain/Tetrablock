@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Common.Extensions;
-using Common.GameEvents;
 using TetraBlock.Data;
+using TetraBlock.GameEvents;
 using UnityEngine;
 
 namespace TetraBlock.World.Board
@@ -15,7 +15,7 @@ namespace TetraBlock.World.Board
 
         private readonly Cell[,] _cellsGrid;
 
-        private readonly GameEvent _onClearCellsGameEvent;
+        private readonly CellsGameEvent _onClearCellsGameEvent;
 
         public Cell this[int x, int y]
         {
@@ -79,7 +79,7 @@ namespace TetraBlock.World.Board
 
             if (cells.Count > 0 && _onClearCellsGameEvent)
             {
-                _onClearCellsGameEvent.Raise();
+                _onClearCellsGameEvent.Raise(cells);
             }
         }
 

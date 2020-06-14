@@ -80,6 +80,12 @@
               <e p="ServiceBehaviour.cs" t="Include" />
               <e p="ServiceLocator.cs" t="Include" />
             </e>
+            <e p="SharedValues" t="Include">
+              <e p="FloatValue.cs" t="Include" />
+              <e p="IntValue.cs" t="Include" />
+              <e p="IValueListener.cs" t="Include" />
+              <e p="SharedValue.cs" t="Include" />
+            </e>
             <e p="TweenAnimator.cs" t="Include" />
             <e p="UnityExtensions" t="Include">
               <e p="SceneField.cs" t="Include" />
@@ -92,6 +98,10 @@
               <e p="Types" t="Include">
                 <e p="SceneContextTypeDictionary.cs" t="Include" />
               </e>
+            </e>
+            <e p="GameEvents" t="Include">
+              <e p="CellsGameEvent.cs" t="Include" />
+              <e p="CellsGameEventListener.cs" t="Include" />
             </e>
             <e p="GameScore.cs" t="Include" />
             <e p="Global" t="Include">
@@ -107,6 +117,7 @@
             <e p="UI" t="Include">
               <e p="Game.cs" t="Include" />
               <e p="Menu.cs" t="Include" />
+              <e p="ScoreView.cs" t="Include" />
             </e>
             <e p="World" t="Include">
               <e p="BlockSpawner.cs" t="Include" />
@@ -124,6 +135,7 @@
                 <e p="PoolableParticle.cs" t="Include" />
               </e>
               <e p="GameFlow.cs" t="Include" />
+              <e p="Scorer.cs" t="Include" />
             </e>
           </e>
         </e>

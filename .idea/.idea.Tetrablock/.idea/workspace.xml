@@ -26,7 +26,74 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c10642c6-5605-43c2-bf62-fdaf9b4ba280" name="Default Changelist" comment="added 3x3 area checks&#10;added sounds&#10;added game events&#10;added particles" />
+    <list default="true" id="c10642c6-5605-43c2-bf62-fdaf9b4ba280" name="Default Changelist" comment="added 3x3 area checks&#10;added sounds&#10;added game events&#10;added particles">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/FloatValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/FloatValue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/IValueListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/IValueListener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/IntValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/IntValue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/SharedValue.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/SharedValue.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameEvents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameEvents/CellsGameEvent.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameEvents/CellsGameEvent.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameEvents/CellsGameEventListener.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameEvents/CellsGameEventListener.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/ScoreView.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/ScoreView.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Scorer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Scorer.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/Config.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/Config/GameConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/Config/GameConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/Config/MapConfig.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/Config/MapConfig.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/GameEvents.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/GameEvents/OnCellObjectPickUp.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/GameEvents/OnCellObjectPickUp.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/GameEvents/OnCellObjectPlace.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/GameEvents/OnCellObjectPlace.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/GameEvents/OnClearCells.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/GameEvents/OnClearCells.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/GameEvents/OnClickUiButton.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/GameEvents/OnClickUiButton.asset.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/SharedValues.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/SharedValues/Score.asset" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/[0]ScriptableObjects/SharedValues/Score.asset.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Tetrablock/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Config.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Config/GameConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Config/GameConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Config/MapConfig.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/Config/MapConfig.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/OnCellObjectPickUp.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/OnCellObjectPickUp.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/OnCellObjectPlace.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/OnCellObjectPlace.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/OnClearCells.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/OnClearCells.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/OnClickUiButton.asset" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Data/OnClickUiButton.asset.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/DOTweenSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Prefabs/Main.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Prefabs/Main.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/GameEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/GameEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/GameEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/GameEventListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/IEventListener.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/IEventListener.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/BlockSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/BlockSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Map.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Map.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/GameFlow.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/GameFlow.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectVersion.txt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,7 +121,6 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Pool/PoolableObject.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/PointClickMover.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Pool/PoolableObject.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///PoolableParticle.cs.meta" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD1B6EA4-F54D-4146-A29C-2A12CD6EC436/8e/4f35b1fa/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Pool.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/23A7799D-A2E9-41B8-8C6D-B790C607D655/82/091e660d/Component.cs" root0="SKIP_HIGHLIGHTING" />
@@ -79,13 +145,14 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/IL/623DD1C5-ED6E-43BC-8659-6AF9203BEC21/55/8e084143/02000055.il" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Data/Config/GameConfig.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/TutorialInfo/Scripts/Readme.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/Game.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/ScoreView.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ProjectSettings/TimelineSettings.asset" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/623DD1C5-ED6E-43BC-8659-6AF9203BEC21/3c/c4900522/TweenerCore`3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingCell.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsCheckZone.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/FloatValue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/Menu.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Menu.unity" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scenes/Game.unity" root0="FORCE_HIGHLIGHTING" />
@@ -101,13 +168,17 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/IContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Rotary Heart/SerializableDictionaryLite/Editor/DictionaryPropertyDrawer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/5C6DD376-D69F-49A1-A1CC-D0729CEF28AC/27/e4d60d67/Grid.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/IntValue.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Map.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/Types/SceneContextTypeDictionary.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Packages/manifest.json" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/MenuContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Scorer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Shaders/UVScrolling.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Rotary Heart/SerializableDictionaryLite/Example/DataBaseExample.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/PoolableParticle.cs.meta" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/IValueListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/Extensions/ComponentExt.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/PoolableParticle.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" root0="FORCE_HIGHLIGHTING" />
@@ -117,7 +188,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/ParticlePool.cs.meta" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Rotary Heart/SerializableDictionaryLite/ReorderableList/ReorderableList.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/ParticlePool.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///PoolableParticle.cs.meta" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/SharedValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameEvents/CellsGameEventListener.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/f9/a84e3304/SceneManager.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/67/baf801fb/Component.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BD1B6EA4-F54D-4146-A29C-2A12CD6EC436/0f/3380956b/KeyValuePair`2.cs" root0="SKIP_HIGHLIGHTING" />
@@ -128,20 +200,11 @@
     <setting file="file://$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModulePhysics.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/2CA68B41-8E8B-4D85-BDBC-A2257895A2BA/0f/c7ff360a/MonoBehaviour.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/GameFlow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameEvents/CellsGameEvent.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Board/MapBuilder.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/MenuContext.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Main.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameContext.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/IContext.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/MenuContext.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/GameContext.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContext.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContextType.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContextPair.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Scene/SceneContextName.cs" />
         <option value="$PROJECT_DIR$/Assets/Demigiant/DOTween/Modules/DOTweenModuleUI.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/ServiceLocator.cs" />
@@ -155,12 +218,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/IPoint.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/PointMethods.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Extensions/IAvailablePoint.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/GameFlow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsChecker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CheckZone.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingCell.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsPolygon.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/BlockSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/GameConfig.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/PointClickMover.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/CellsCheckZone.cs" />
@@ -172,17 +233,29 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/CellDestroyParticle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/ParticlePool.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/Pool/ObjectPool.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/PoolableParticle.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/GameEvents.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/IEventListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/GameEventListener.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/GameEvent.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Cell.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Map.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/MovingBlock.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Entities/PoolableParticle.cs.meta" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/SharedValueListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/IntValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/BlockSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/FloatValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/IntValueView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/IntView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/IEventListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Data/MapConfig.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Board/Map.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameEvents/CellsGameEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/Scorer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/GameEventListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/GameEvents/CellsGameEventListener.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/GameEvents/GameEvent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Common/SharedValues/SharedValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/World/GameFlow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/UI/ScoreView.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/TetraBlock/Global/Main.cs" />
       </list>
     </option>
   </component>
@@ -225,8 +298,6 @@
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="c10642c6-5605-43c2-bf62-fdaf9b4ba280" name="Default Changelist" comment="" />
-      <changelist id="" name="added 3x3 area checksadded sounds" comment="" />
-      <changelist id="" name="added 3x3 area checks added sounds" comment="" />
       <created>1589069014147</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
@@ -244,6 +315,7 @@
       <workItem from="1590936126934" duration="2043000" />
       <workItem from="1591446294670" duration="613000" />
       <workItem from="1591463662603" duration="7358000" />
+      <workItem from="1592115115447" duration="5603000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1589069180536</created>
@@ -380,7 +452,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="master" />
+                        <option value="origin/master" />
                       </list>
                     </value>
                   </entry>
@@ -523,9 +595,9 @@
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
     <state x="978" y="319" width="666" height="801" key="find.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1589718297812" />
-    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1591472514683">
+    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup" timestamp="1592124797466">
       <screen x="62" y="0" width="2498" height="1440" />
     </state>
-    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1591472514683" />
+    <state x="1014" y="451" width="672" height="678" key="search.everywhere.popup/62.0.2498.1440@62.0.2498.1440" timestamp="1592124797466" />
   </component>
 </project>
