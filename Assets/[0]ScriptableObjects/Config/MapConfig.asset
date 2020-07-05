@@ -17,7 +17,7 @@ MonoBehaviour:
   cellPrefab: {fileID: 8833677725031135171, guid: 4d4e0a801efa2524a835923e3b117e8f,
     type: 3}
   polygonSize: 3
-  cellDefaultColor: {r: 0.7490196, g: 0.81960785, b: 0.81960785, a: 1}
+  cellDefaultColor: {r: 0.8556566, g: 0.8931502, b: 0.936, a: 1}
   cellHighlightedColor: {r: 0.6155255, g: 0.81960785, b: 0.6373626, a: 1}
   cellOccupiedColor: {r: 1, g: 0.31199998, b: 0.32952875, a: 1}
   maxDistanceToCell: 1.1

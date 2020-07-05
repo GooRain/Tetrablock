@@ -41,6 +41,8 @@ namespace TetraBlock.World.Board
             Position = position;
 
             particlePool = ServiceLocator.Current.Get<Main>().ParticlePool;
+
+            spriteRenderer.color = _mapConfig.CellDefaultColor;
         }
 
         public void Unhighlight()

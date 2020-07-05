@@ -64,7 +64,6 @@
               <e p="CellsGameEvent.cs" t="Include" />
               <e p="CellsGameEventListener.cs" t="Include" />
             </e>
-            <e p="GameScore.cs" t="Include" />
             <e p="Global" t="Include">
               <e p="IContext.cs" t="Include" />
               <e p="Main.cs" t="Include" />
@@ -143,54 +142,8 @@
           </e>
         </e>
       </e>
-      <e p="GooRain.Common.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
-      <e p="Packages" t="ExcludeRecursive">
-        <e p="Common" t="Include">
-          <e p="Runtime" t="Include">
-            <e p="GooRain.Common.asmdef" t="Include" />
-            <e p="Scripts" t="Include">
-              <e p="Extensions" t="Include">
-                <e p="ComponentExt.cs" t="Include" />
-                <e p="IPoint.cs" t="Include" />
-                <e p="PointMethods.cs" t="Include" />
-              </e>
-              <e p="GameEvents" t="Include">
-                <e p="GameEvent.cs" t="Include" />
-                <e p="GameEventListener.cs" t="Include" />
-                <e p="IEventListener.cs" t="Include" />
-              </e>
-              <e p="IDragging.cs" t="Include" />
-              <e p="PointClickMover.cs" t="Include" />
-              <e p="Pool" t="Include">
-                <e p="IPool.cs" t="Include" />
-                <e p="IPoolable.cs" t="Include" />
-                <e p="ObjectPool.cs" t="Include" />
-                <e p="PoolableObject.cs" t="Include" />
-              </e>
-              <e p="Scenes" t="Include">
-                <e p="SceneBehaviour.cs" t="Include" />
-                <e p="SceneExecutor.cs" t="Include" />
-              </e>
-              <e p="Service" t="Include">
-                <e p="IService.cs" t="Include" />
-                <e p="ServiceBehaviour.cs" t="Include" />
-                <e p="ServiceLocator.cs" t="Include" />
-              </e>
-              <e p="SharedValues" t="Include">
-                <e p="FloatValue.cs" t="Include" />
-                <e p="IntValue.cs" t="Include" />
-                <e p="IValueListener.cs" t="Include" />
-                <e p="SharedValue.cs" t="Include" />
-              </e>
-              <e p="TweenAnimator.cs" t="Include" />
-              <e p="UnityExtensions" t="Include">
-                <e p="SceneField.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-        </e>
-      </e>
+      <e p="Packages" t="ExcludeRecursive" />
       <e p="RotaryHeart.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
       <e p="Tetrablock.sln" t="IncludeFlat" />

@@ -45,7 +45,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   spriteRenderer: {fileID: 5789841526118547130}
-  onClearGameEvent: {fileID: 11400000, guid: 8902193b0cfd1af4197f79d49b3d3543, type: 2}
 --- !u!1 &3942249317721494631
 GameObject:
   m_ObjectHideFlags: 0
@@ -116,7 +115,7 @@ SpriteRenderer:
   m_SortingLayerID: 376496125
   m_SortingLayer: -1
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: c0452a42095b3af498cacf14fb564f02, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 933b9e5b830b4ff41ae088d8040e2405, type: 3}
   m_Color: {r: 0.7490196, g: 0.81960785, b: 0.81960785, a: 1}
   m_FlipX: 0
   m_FlipY: 0
